@@ -67,6 +67,12 @@ public abstract class WordLibrary {
      * @return the total number of plain/scrambled word pairs in the library
      */
     public abstract int getSize();
+    
+    
+    public  void  testWater()
+    {
+        
+    }
 
     /**
      * Checks whether a user's guess for a word at the given index is correct.
@@ -75,4 +81,7 @@ public abstract class WordLibrary {
      * @return true if the guess was correct; false otherwise
      */
     public abstract boolean isCorrect(int idx, String userGuess);
+    
+    
+    
 }
